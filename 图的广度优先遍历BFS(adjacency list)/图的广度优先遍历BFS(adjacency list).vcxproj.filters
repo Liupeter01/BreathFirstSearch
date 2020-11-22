@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="图的基本数据结构">
+      <UniqueIdentifier>{0f298894-f59b-4af3-9c53-2dd1378ccdd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图的基本数据结构\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="图的基本数据结构\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="广度优先遍历">
+      <UniqueIdentifier>{7c28a390-0d2c-49ae-8177-90be54e77178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="队列数据结构">
+      <UniqueIdentifier>{10631f10-dfea-4427-b6e5-a3adcea6acd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="广度优先遍历\源文件">
+      <UniqueIdentifier>{92b3094d-a025-40c7-ad7d-e813e406af96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="广度优先遍历\头文件">
+      <UniqueIdentifier>{638629e8-957d-44f0-8be2-b956a71e223a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="队列数据结构\源文件">
+      <UniqueIdentifier>{c7f84750-a4b1-43fe-994d-b20de5afe0c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="队列数据结构\头文件">
+      <UniqueIdentifier>{5322e86c-e827-4b8d-924c-c33d626148ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>图的基本数据结构\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ALGraph.c">
+      <Filter>图的基本数据结构\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectEdge.c">
+      <Filter>图的基本数据结构\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UnDirectEdge.c">
+      <Filter>图的基本数据结构\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS.c">
+      <Filter>广度优先遍历\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkQueue.c">
+      <Filter>队列数据结构\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ALGraph.h">
+      <Filter>图的基本数据结构\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnDirectEdge.h">
+      <Filter>图的基本数据结构\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectEdge.h">
+      <Filter>图的基本数据结构\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BFS.h">
+      <Filter>广度优先遍历\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkQueue.h">
+      <Filter>队列数据结构\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
