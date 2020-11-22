@@ -8,11 +8,11 @@ int main()
           ALGraph Graph;
           InitGraph(&Graph);         //初始化
 
-          VertexType arr[] = { "ABCDEFGH" };         //顶点数组集合V(G)
+          VertexType arr[] = { "ABCDEFGHIJKLM" };         //顶点数组集合V(G)
           CreateBatchVertex(&Graph, arr);//根据数组批量的创建
 
-          VertexType arr1[] = "AABBDECCF";
-          VertexType arr2[] = "BCDEHHFGG";
+          VertexType arr1[] = "AAAABLLJDGGGH";
+          VertexType arr2[] = "BCFLMJMMEHIKK";
 
           for (size_t i = 0; i < strlen(arr1); ++i)
           {
